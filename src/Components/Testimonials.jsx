@@ -1,6 +1,6 @@
 import React from 'react'
 import { feedback } from '../constants'
-import FeedBackCard from './FeedbackCard'
+import FeedbackCard from './FeedbackCard'
 import styles from '../Style'
 const Testimonials = () => {
   return (
@@ -20,7 +20,7 @@ const Testimonials = () => {
 
       <div className="flex flex-wrap sm:justify-start justify-center w-full relative z-[1] feedback-container">
        {feedback.map((card) =>(
-        <FeedBackCard  key={card.id} {...card}/>
+        <FeedbackCard  key={card.id} {...card}/>
        ))}
       </div>
     </section>
