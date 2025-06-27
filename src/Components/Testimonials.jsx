@@ -1,6 +1,6 @@
 import React from 'react'
 import { feedback } from '../constants'
-import FeedbackCard from './FeedbackCard'
+import FeedbackCard "./"
 import styles from '../Style'
 const Testimonials = () => {
   return (
